@@ -164,7 +164,7 @@ export default function Contacts() {
                     <div>
                       <p className="font-medium">Адрес:</p>
                       <p className="text-muted-foreground">
-                        г. Москва, ул. Школьная, д. 123
+                        г. Вольск, ул. Школьная, 7А
                       </p>
                     </div>
                   </li>
