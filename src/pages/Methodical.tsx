@@ -187,7 +187,7 @@ export default function Methodical() {
 
   return (
     <>
-      <section className="bg-gradient-to-b from-blue-50 to-white dark:from-slate-950 dark:to-slate-900 py-12">
+      <section className="bg-gradient-to-b from-cyan-50 to-white dark:from-slate-950 dark:to-slate-900 py-12">
         <div className="container">
           <h1 className="text-4xl font-bold mb-4">Методическая копилка</h1>
           <p className="text-xl text-muted-foreground max-w-3xl">

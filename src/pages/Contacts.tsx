@@ -92,20 +92,13 @@ export default function Contacts() {
               </form>
 
               <div className="mt-12">
-                <h3 className="text-xl font-bold mb-4">График консультаций</h3>
+                <h3 className="text-xl font-bold mb-4">Режим работы</h3>
                 <ul className="space-y-3">
                   <li className="flex items-start gap-3">
                     <Icon name="Calendar" className="text-primary mt-1" />
                     <div>
-                      <p className="font-medium">Понедельник, среда:</p>
-                      <p className="text-muted-foreground">14:00 - 16:00</p>
-                    </div>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <Icon name="Calendar" className="text-primary mt-1" />
-                    <div>
-                      <p className="font-medium">Пятница:</p>
-                      <p className="text-muted-foreground">15:00 - 17:00</p>
+                      <p className="font-medium">Понедельник - пятница:</p>
+                      <p className="text-muted-foreground">8:00 - 16:00</p>
                     </div>
                   </li>
                 </ul>
