@@ -1,8 +1,18 @@
-
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
+import {
+  Card,
+  CardContent,
+  CardDescription,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card";
 import Icon from "@/components/ui/icon";
 import { Button } from "@/components/ui/button";
-import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
+import {
+  Accordion,
+  AccordionContent,
+  AccordionItem,
+  AccordionTrigger,
+} from "@/components/ui/accordion";
 
 export default function UsefulLinks() {
   const linkCategories = [
@@ -12,23 +22,69 @@ export default function UsefulLinks() {
       links: [
         {
           title: "British Council",
-          description: "Ресурсы для изучения английского языка от Британского Совета",
+          description:
+            "Ресурсы для изучения английского языка от Британского Совета",
           url: "https://learnenglish.britishcouncil.org/",
-          icon: "Globe"
+          icon: "Globe",
         },
         {
           title: "Goethe-Institut",
           description: "Материалы для изучения немецкого языка",
           url: "https://www.goethe.de/",
-          icon: "Globe"
+          icon: "Globe",
         },
         {
           title: "BBC Learning English",
           description: "Актуальные материалы для изучения английского языка",
           url: "https://www.bbc.co.uk/learningenglish/",
-          icon: "Radio"
-        }
-      ]
+          icon: "Radio",
+        },
+      ],
+    },
+    {
+      title: "Интерактивные платформы",
+      icon: "Gamepad2",
+      links: [
+        {
+          title: "Quizlet",
+          description:
+            "Создавайте учебные модули и карточки для запоминания новых слов",
+          url: "https://quizlet.com/latest",
+          icon: "LayoutGrid",
+        },
+        {
+          title: "Simpoll",
+          description: "Платформа для создания опросов и тестов",
+          url: "http://simpoll.ru/run/survey/3afe7d01",
+          icon: "FileQuestion",
+        },
+        {
+          title: "Genially",
+          description:
+            "Создание интерактивных презентаций и обучающих материалов",
+          url: "https://view.genially.com/62d629054e7eb5001e5339b2",
+          icon: "Presentation",
+        },
+        {
+          title: "Wordwall",
+          description: "Интерактивные кроссворды и задания для изучения языков",
+          url: "https://wordwall.net/ru/resource/11201131/work-crossword",
+          icon: "Puzzle",
+        },
+        {
+          title: "Видеоуроки",
+          description: "Тесты по различным предметам и темам",
+          url: "https://videouroki.net/tests/tiest-po-tiemie-primienieniie-sieti-intierniet-v-sistiemie-obrazovaniia.html",
+          icon: "Video",
+        },
+        {
+          title: "Quizlet - Неправильные глаголы",
+          description:
+            "Карточки для изучения неправильных глаголов английского языка для 7 класса",
+          url: "https://quizlet.com/ru/1000886052/irregular-verbs-part-1-7-%D0%BA%D0%BB%D0%B0%D1%81%D1%81-flash-cards/?funnelUUID=55aa72da-9c0b-4569-b90f-efb9b040d189",
+          icon: "FileSymlink",
+        },
+      ],
     },
     {
       title: "Словари и справочники",
@@ -36,23 +92,24 @@ export default function UsefulLinks() {
       links: [
         {
           title: "Cambridge Dictionary",
-          description: "Онлайн-словарь английского языка от издательства Cambridge",
+          description:
+            "Онлайн-словарь английского языка от издательства Cambridge",
           url: "https://dictionary.cambridge.org/",
-          icon: "BookOpen"
+          icon: "BookOpen",
         },
         {
           title: "PONS Online Dictionary",
           description: "Многоязычный онлайн-словарь",
           url: "https://en.pons.com/",
-          icon: "Languages"
+          icon: "Languages",
         },
         {
           title: "Grammarly",
           description: "Сервис для проверки грамматики и правописания",
           url: "https://www.grammarly.com/",
-          icon: "Check"
-        }
-      ]
+          icon: "Check",
+        },
+      ],
     },
     {
       title: "Методические материалы",
@@ -62,21 +119,21 @@ export default function UsefulLinks() {
           title: "Единая коллекция ЦОР",
           description: "Цифровые образовательные ресурсы для учителей",
           url: "http://school-collection.edu.ru/",
-          icon: "FolderArchive"
+          icon: "FolderArchive",
         },
         {
           title: "TeachingEnglish",
           description: "Ресурсы для учителей английского языка",
           url: "https://www.teachingenglish.org.uk/",
-          icon: "GraduationCap"
+          icon: "GraduationCap",
         },
         {
           title: "Goethe-Institut für Lehrer",
           description: "Материалы для учителей немецкого языка",
           url: "https://www.goethe.de/ins/ru/ru/spr/unt.html",
-          icon: "School"
-        }
-      ]
+          icon: "School",
+        },
+      ],
     },
     {
       title: "Аутентичные материалы",
@@ -86,22 +143,22 @@ export default function UsefulLinks() {
           title: "TED Talks",
           description: "Видео-выступления по разным темам на английском языке",
           url: "https://www.ted.com/talks",
-          icon: "Video"
+          icon: "Video",
         },
         {
           title: "Deutsche Welle",
           description: "Новости и учебные материалы на немецком языке",
           url: "https://www.dw.com/de/",
-          icon: "Radio"
+          icon: "Radio",
         },
         {
           title: "News in Levels",
           description: "Новости на английском языке разного уровня сложности",
           url: "https://www.newsinlevels.com/",
-          icon: "Newspaper"
-        }
-      ]
-    }
+          icon: "Newspaper",
+        },
+      ],
+    },
   ];
 
   return (
@@ -110,8 +167,8 @@ export default function UsefulLinks() {
         <div className="container">
           <h1 className="text-4xl font-bold mb-4">Полезные ссылки</h1>
           <p className="text-xl text-muted-foreground max-w-3xl">
-            В этом разделе собраны ссылки на полезные ресурсы для изучения иностранных языков, 
-            методические материалы, словари и справочники.
+            В этом разделе собраны ссылки на полезные ресурсы для изучения
+            иностранных языков, методические материалы, словари и справочники.
           </p>
         </div>
       </section>
@@ -133,18 +190,32 @@ export default function UsefulLinks() {
                 <CardContent>
                   <Accordion type="multiple" className="w-full">
                     {category.links.map((link, linkIndex) => (
-                      <AccordionItem key={linkIndex} value={`item-${index}-${linkIndex}`}>
+                      <AccordionItem
+                        key={linkIndex}
+                        value={`item-${index}-${linkIndex}`}
+                      >
                         <AccordionTrigger className="text-left">
                           <span className="flex items-center gap-2">
-                            <Icon name={link.icon} size={16} className="text-primary" />
+                            <Icon
+                              name={link.icon}
+                              size={16}
+                              className="text-primary"
+                            />
                             {link.title}
                           </span>
                         </AccordionTrigger>
                         <AccordionContent>
                           <div className="pb-4">
-                            <p className="mb-4 text-muted-foreground">{link.description}</p>
+                            <p className="mb-4 text-muted-foreground">
+                              {link.description}
+                            </p>
                             <Button asChild variant="outline" size="sm">
-                              <a href={link.url} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2">
+                              <a
+                                href={link.url}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="flex items-center gap-2"
+                              >
                                 <Icon name="ExternalLink" size={16} />
                                 Перейти на сайт
                               </a>
@@ -165,11 +236,15 @@ export default function UsefulLinks() {
               Предложить ресурс
             </h2>
             <p className="mb-4">
-              Если у вас есть ссылка на полезный ресурс для изучения иностранных языков, 
-              которого нет в этом списке, вы можете предложить его для добавления.
+              Если у вас есть ссылка на полезный ресурс для изучения иностранных
+              языков, которого нет в этом списке, вы можете предложить его для
+              добавления.
             </p>
             <Button asChild>
-              <a href="mailto:teacher@example.com" className="flex items-center gap-2">
+              <a
+                href="mailto:yulya.yagina.03@mail.ru"
+                className="flex items-center gap-2"
+              >
                 <Icon name="Send" size={16} />
                 Отправить предложение
               </a>
